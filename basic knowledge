@@ -4,3 +4,25 @@ void main()
 }
 
 P5——各类数值型数据之间的混合运算
+exp:
+void main()
+{
+printf("7除以2=%d......%d\n",7/2,7%2);
+}
+//the answer is 3.......1
+
+P6——
+++i(先加)、--i（后减）
+
+P7——
+C基本语句（表达式语句，例如：x=y+2;y+2;i++;，函数调用语句，控制语句，例如：条件判断语句if、switch、循环执行语句do while、while、for、转向语句break、goto、continue、return）
+exp:
+#include<stdio.h>
+void main()
+{
+char a = 'B',b = 'o',c = 'k';
+putchar(a);putchar(b);putchar(b);putchar(c);putchar('\t');
+putchar(a);putchar(b);
+putchar('\n');
+putchar(b);putchar(c);
+}
