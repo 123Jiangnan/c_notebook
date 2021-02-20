@@ -1,3 +1,6 @@
-include<stdio>
+#include <stdio.h> //导入标准输入输出库的头文件
 void main()
-{}
+{
+}
+
+P5——各类数值型数据之间的混合运算
