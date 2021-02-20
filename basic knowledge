@@ -16,7 +16,7 @@ P6——
 
 P7——
 C基本语句（表达式语句，例如：x=y+2;y+2;i++;，函数调用语句，控制语句，例如：条件判断语句if、switch、循环执行语句do while、while、for、转向语句break、goto、continue、return）
-exp:
+exp1:
 #include<stdio.h>
 void main()
 {
@@ -25,4 +25,17 @@ putchar(a);putchar(b);putchar(b);putchar(c);putchar('\t');
 putchar(a);putchar(b);
 putchar('\n');
 putchar(b);putchar(c);
+}
+
+exp2:
+#include<stdio.h>
+void main()
+{
+int a = 15;
+float b = 123.1234567;
+char d = 'p';
+printf("a = %d,%5d,%o,%x\n",a,a,a,a）;
+printf("b = %f,%lf,%5.4lf,%e\n",b,b,b,b）；
+printf("c = %lf,%f,%8.4lf\n",c,c,c);
+printf("d = %c,%8c\n",d,d);
 }
