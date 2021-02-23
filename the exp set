@@ -13,3 +13,27 @@ area = sqrt(s*(s-a)*(s-b)*(s-c));
 printf("a = %7.2f,b = %7.2f,c = %7.2f,s = %7.2f\n",a,b,c,s);
 printf("area = %7.2f\n",area);
 }
+
+分支程序设计
+逻辑表达式综合
+exp:
+void main()
+{
+char c = 'k';
+int i = 1,j = 2,k = 3;
+float x = 3e+5,y = 0.85;
+printf("%d,%d\n",!x*!y!!!x);
+printf("%d,%d\n",x || i && j-3,i<j && x<y);
+printf("%d,%d\n",i == 5 && c && (j = 8),x+y || i+j+k);
+}
+
+if语句
+void main()
+{
+int a,b,max;
+printf("\n input two numbers: ");
+scanf("%d%d",&a,&b);
+max = a;
+if (max<b) max = b;
+printf("max=%d",max);
+}
