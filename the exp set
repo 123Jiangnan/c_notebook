@@ -56,5 +56,10 @@ else if() printf("");
 else printf();
 }
 
+条件运算符（唯一的三目运算符）和条件表达式
+
+if(a>b) max = a;
+else max = b;
+61/62行等价于条件表达式： max=(a>b)?a:b;
 
 
