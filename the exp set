@@ -34,6 +34,27 @@ int a,b,max;
 printf("\n input two numbers: ");
 scanf("%d%d",&a,&b);
 max = a;
-if (max<b) max = b;
+if (max<b) {max = b;}
 printf("max=%d",max);
 }
+
+if-else-exp:
+if(a>b)
+{printf("max = %d\n",a);}
+else
+{printf("max = %d\n",b);}
+
+if-else if
+
+void main()
+{
+char c;
+printf();
+c = getchar();
+if(c<32) printf("");
+else if() printf("");
+else printf();
+}
+
+
+
