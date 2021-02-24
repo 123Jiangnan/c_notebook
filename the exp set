@@ -62,4 +62,17 @@ if(a>b) max = a;
 else max = b;
 61/62行等价于条件表达式： max=(a>b)?a:b;
 
-
+void main()
+{
+float a,b;
+char c;
+printf("input expression:a+(-,*,/)b\n");
+scanf("%f%c%f",&a,&c,&b);
+switch(c){
+case'+':printf("%f\n",a+b);break;
+case'-':printf("%f\n",a-b);break;
+case'*':printf("%f\n",a*b);break;
+case'/':printf("%f\n",a/b);break;
+default:printf("input error\n");
+}
+}
