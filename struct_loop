@@ -37,3 +37,9 @@ i++;
 }while(i<=10);
 printf("sum=%d",sum);
 }
+
+for(i=1;i<=100;i++)
+{
+sum=sum+i;
+}
+
